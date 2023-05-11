@@ -111,7 +111,12 @@ if __name__== '__main__':
     #2 Ajouter un element
     print("\n2) Ajout d'un element dans le set")
     print("--------------------------------------------------")
-    pays.add("Shalom")
+    pays.add("congo")
+    print(pays)
+     #3 Supprimer un element
+    print("\n3) Suppression d'un element dans le set")
+    print("--------------------------------------------------")
+    pays.remove("france")
     print(pays)
     
     
