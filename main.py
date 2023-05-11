@@ -86,6 +86,8 @@ if __name__== '__main__':
     liste = list(chiffre)
      # Ajouter un element a la fin de la liste
     liste.append(4)
+    # Reconvertir la liste en tuple
+    chiffre = tuple(liste)
 
     
     
