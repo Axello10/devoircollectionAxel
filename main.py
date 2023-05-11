@@ -160,6 +160,10 @@ if __name__== '__main__':
     print("\n8) Creation d'une copie du dictionnaire")
     print("--------------------------------------------------")
     copie_dict = chiffres.copy()
+    print(copie_dict) 
+    #9 Afficher les nouveaux elements
+    print("\n9) Affichage des nouveaux elements")
+    print("--------------------------------------------------")
     print(copie_dict)
     
     
