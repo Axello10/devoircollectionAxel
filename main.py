@@ -147,6 +147,10 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     chiffres.pop("2")
     print(chiffres)
+    #6 Afficher l'element de la cle numero  5
+    print("\n6) Affichage de l'element de la cle numero 5")
+    print("--------------------------------------------------")
+    print(chiffres["5"])
     
     
     
