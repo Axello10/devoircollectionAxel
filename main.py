@@ -71,8 +71,7 @@ if __name__== '__main__':
     print("\n1) Affichage du nombre de fois que valeur 3 apparait dans la tuple")
     print("--------------------------------------------------")
     print(chiffre.count(3))
-     #2)  
-    print("\n2) Affichage du contenu de l'element numero 5")
+     #2) print("\n2) Affichage du contenu de l'element numero 5")
     print("--------------------------------------------------")
     print(chiffre[4])
     #3) Ordonnancement du tuple
@@ -80,6 +79,11 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     chiffre = tuple(sorted(chiffre))
     print(chiffre)
+    #4) Ajout d' un element a la fin de la tuple
+    print("\n4) Ajout d' un element a la fin de la tuple")
+    print("--------------------------------------------------")
+    # On ne peut pas modifier une tuple directement, il faut creer une nouvelle tuple
+    liste = list(chiffre)
 
     
     
