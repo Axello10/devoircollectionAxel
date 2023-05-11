@@ -97,7 +97,10 @@ if __name__== '__main__':
     # On ne peut pas modifier une tuple directement, il faut creer une nouvelle tuple
     chiffre = chiffre[:3] + (12,) + chiffre[3:]
     print(chiffre)
-
+#6) Affichage de la nouvelle tuple
+    print("\n6) Affichage de la nouvelle tuple")
+    print("--------------------------------------------------")
+    print(chiffre)
     
     
     
