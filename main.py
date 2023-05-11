@@ -84,6 +84,8 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     # On ne peut pas modifier une tuple directement, il faut creer une nouvelle tuple
     liste = list(chiffre)
+     # Ajouter un element a la fin de la liste
+    liste.append(4)
 
     
     
