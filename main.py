@@ -59,6 +59,7 @@ if __name__== '__main__':
     print(animaux)
     #11 Suppression de la liste
     del animaux
+    
     # Q2
     print("==========Question 2============")
     # Creation d' une tuple de 10 elements de type entier
@@ -88,6 +89,8 @@ if __name__== '__main__':
     liste.append(4)
     # Reconvertir la liste en tuple
     chiffre = tuple(liste)
+     # Affichage du nouveau tuple 
+    print(chiffre) 
 
     
     
