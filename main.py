@@ -37,7 +37,11 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     animaux.remove("lion")
     print(animaux)
-
+#7. Suppression l'element a l'index numero 2
+    print("\n7) Suppression de l'element a l'index numero 2")
+    print("--------------------------------------------------")
+    del animaux[2]
+    print(animaux)
     
     
     
