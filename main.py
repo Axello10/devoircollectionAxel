@@ -37,7 +37,7 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     animaux.remove("lion")
     print(animaux)
-#7. Suppression l'element a l'index numero 2
+    #7 Suppression l'element a l'index numero 2
     print("\n7) Suppression de l'element a l'index numero 2")
     print("--------------------------------------------------")
     del animaux[2]
@@ -46,6 +46,12 @@ if __name__== '__main__':
     print("\n8) Ordonnancement de la liste")
     print("--------------------------------------------------")
     animaux.sort()
+    print(animaux) 
+    
+    #9 Afficher le sens au sens inverse
+    print("\n9) Affichage dans le sens inverse")
+    print("--------------------------------------------------")
+    animaux.reverse()
     print(animaux)
     
     
