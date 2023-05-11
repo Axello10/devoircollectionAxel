@@ -47,12 +47,17 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     animaux.sort()
     print(animaux) 
-    
     #9 Afficher le sens au sens inverse
     print("\n9) Affichage dans le sens inverse")
     print("--------------------------------------------------")
     animaux.reverse()
     print(animaux)
+    #10 Vider la liste
+    print("\n10) Vidange de la liste")
+    print("--------------------------------------------------")
+    animaux.clear()
+    print(animaux)
+    
     
     
     
