@@ -8,3 +8,8 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     print(animaux)
     print("--------------------------------------------------\n")
+    # 2- Changer le contenu de l'element numero 5
+    print("2) Changement du contenu de l'element numero 5")
+    print("--------------------------------------------------")
+    animaux[4] = "requin"
+    print(animaux)
