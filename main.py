@@ -151,6 +151,11 @@ if __name__== '__main__':
     print("\n6) Affichage de l'element de la cle numero 5")
     print("--------------------------------------------------")
     print(chiffres["5"])
+    #7 Ajouter un nouvel element
+    print("\n7) Ajout d'un nouvel element")
+    print("--------------------------------------------------")
+    chiffres["11"] = "onze"
+    print(chiffres)
     
     
     
