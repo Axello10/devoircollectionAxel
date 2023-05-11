@@ -101,13 +101,17 @@ if __name__== '__main__':
     print("\n6) Affichage de la nouvelle tuple")
     print("--------------------------------------------------")
     print(chiffre)
-    
-     # Q3
+    # Q3
     # Creation d'un set de 10 elements de type chaine de caractères
     pays = {"Burudi", "rwanda", "kenya", "ouganda", "france", "egypte", "canada", "nigeria", "espagne", "iran"}
     #1 Affichage du set
     print("\n1) Affichage du set")
     print("--------------------------------------------------")
+    print(pays)
+    #2 Ajouter un element
+    print("\n2) Ajout d'un element dans le set")
+    print("--------------------------------------------------")
+    pays.add("Shalom")
     print(pays)
     
     
