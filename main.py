@@ -102,6 +102,11 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     print(chiffre)
     
+     # Q3
+    # Creation d'un set de 10 elements de type chaine de caractères
+    pays = {"Burudi", "rwanda", "kenya", "ouganda", "france", "egypte", "canada", "nigeria", "espagne", "iran"}
+
+    
     
     
     
