@@ -156,6 +156,11 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     chiffres["11"] = "onze"
     print(chiffres)
+    #8 Creer une copie du dictionnaire
+    print("\n8) Creation d'une copie du dictionnaire")
+    print("--------------------------------------------------")
+    copie_dict = chiffres.copy()
+    print(copie_dict)
     
     
     
