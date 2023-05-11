@@ -118,6 +118,10 @@ if __name__== '__main__':
     print("--------------------------------------------------")
     pays.remove("france")
     print(pays)
+    #4 Supprimer le set
+    print("\n4) Suppression du set")
+    print("--------------------------------------------------")
+    del pays
     
     
     
